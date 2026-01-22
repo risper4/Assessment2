@@ -10,7 +10,8 @@
  nav ul{
             list-style-type: none;
             display: flex;
-            gap: 40px;
+            align-items: center;
+            gap: 300px;
             
         }
 .jay {
@@ -27,7 +28,45 @@ img {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     color: rgb(171, 139, 99);
+} 
+ img{
+    width: 600px;
+    height: 400px;
 }
-#x{
-    background-color: beige;
+.t{
+    display: flex;
+    align-items: center;
 }
+#a {
+    background-color: antiquewhite;
+}
+section+p {
+    color: rgb(206, 86, 43);
+}
+a:link {
+    color: darkcyan;
+}
+a:visited {
+    color: chocolate;
+}
+a:active {
+    color: rgb(22, 87, 87);
+}
+button:hover {
+    color: aqua;
+}
+button:{
+    border-radius: 200px;
+}
+label {
+    display: block;
+    margin-top: 20px;
+    color: rgb(241, 138, 13);
+}
+input, textarea {
+                  border-radius: 5px dashed;
+}
+
+
+    
+
