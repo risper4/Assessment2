@@ -1,0 +1,33 @@
+.lily {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align:left;color: peru;
+       }
+ nav{
+            background-color: aquamarine;
+            align-items: center;
+            color: chocolate;
+            display: flex;
+    }
+ nav ul{
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+            
+        }
+.jay {
+    font-size: x-large;
+    color:olive
+     }
+*{
+    background-color: lightpink;
+}
+img {
+    border-radius: 20px;
+}
+.y{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: rgb(171, 139, 99);
+}
+#x{
+    background-color: beige;
+}
