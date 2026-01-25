@@ -12,7 +12,7 @@ nav>ul {
     text-align: center;
 }
 * {
-    background-color: rgb(28, 182, 131);
+    background-color: rgb(11, 90, 43);
 }
 #y {
     font-family: Arial, Helvetica, sans-serif;
@@ -37,10 +37,9 @@ img {
     font-size: 50px;
     color: rgb(174, 129, 215);
 }
-#a {
-    width: 500px;
-    height: 400px;
-    text-align: center;
+.a {
+    display: flex;
+    gap: 200px;
 }
 #c {
     font-size: 40px;
@@ -63,7 +62,7 @@ img {
     padding: 20px;
     border: 5px;
     margin: 20px;
-    background-color:darkolivegreen;
+    background-color: rgb(122, 115, 76);
     
 }
 .d {
@@ -74,3 +73,15 @@ img {
 .a {
     max-width: 100%;
 }
+label {
+    display: block;
+}
+button:hover {
+    color: aqua;
+}
+@media (
+    max-width: 1000px) {
+        body {
+            background-color: bisque;
+        }
+    }
