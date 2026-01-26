@@ -1,5 +1,5 @@
 # {Food photography website}
-#### {Aphotography website based on food}
+#### {A photography website based on food}
 #### By **{Risper Gichia}
 
 {This a brief website made to pictures to what I find dear and very unique.Food is considered the essence of life.Therefore I made a website dedicated to food;my personal favourites}
