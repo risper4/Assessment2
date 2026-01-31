@@ -1,67 +1,67 @@
-let userName1 = 'Maureen'
-console.log (userName1)
-let userAge = '28'
-console.log (userAge)
-let isLoggedIn = 'true'
-console.log (isLoggedIn)
-let selectedCourse = null
-console.log (selectedCourse)
-const m = [1,'hello',true]
-let fruits = ['apples','mangoes','passion']
-fruits.unshift('banana')
-fruits.shift('banana')
-console.log (fruits)
-console.log (fruits[1])
-console.log(fruits.length)
-
-fruits.sort()
-console.log(fruits)
-
-for(let a = 0; a<fruits.length; a++){
-    console.log(fruits[a])
-}
-
-let user = {name:'Ruth', age:23, hobby:'cooking', girl:true}
-console.log(user.age)
-
-console.log(Object.keys(user))
+let user = {name:'Ken' , age: 27 ,hobby: 'cooking'}
+console.log(user)
 for(let k in user){
-    console.log(k + ':' + user[k] )
+    console.log(k + ':' + user[k])
 }
-let car = {brand:'toyota', color:'silver'}
-let count = 0
-
-let i = 5;
-console.log(i++)
-console.log(i)
-let r = 10
-console.log(r--)
-console.log(r)
-
-for(let b = 1; b < 10; b++){
-    console.log(b)
-}
-let v = 5;
-while (v>0){
-console.log(v)
-    v--
+for (b=5; b<0; b--) {
+      console.log(b)
 }
 
-let attempts = 3;
-let correctPassword = 'ggg1'
-let userPasswords = '000'
-
-while(attempts>0 && userPassword !== correctPassword){
-    console.log(attempts)
+let x = 200
+while(x<=600){
+    console.log('Keep farming')
+    x++
 }
 
-let food = 250
-while(food > 100){
-    console.log('Keep eating')
-    food--
+let burgers = 100;
+do {
+    console.log('Keep ordering')
+    burgers--
+}while(burgers < 25)
+
+let word = 'Hello world'
+for(let y of word){
+    console.log(y)
 }
-let userPassword
-do{
-    password = '1234'
-}while(password !== '1234')
-console.log('Nope')
+let fruits = ['mango','orange','apple']
+for(let t of fruits){
+    console.log(t)
+}
+const add = (a, b) => (a + b)
+console.log(add(4 , 6))
+
+let myKeys = false
+let myPhone = true
+console.log(!myKeys && myPhone)
+
+let sunny = false
+if(sunny){
+    console.log('Go for swimming')
+}else{
+    console.log('Read a book')
+}
+
+let results = 83
+if (results>= 80){
+    console.log('A')
+}else if (results >= 75){
+    console.log('A-')
+}else if (results >= 70){
+    console.log('B+')
+}else{
+    console.log('B')
+}
+
+let age = 17
+let vote = age >= 18 ? 'Vote': 'No'
+console.log(vote)
+
+let grade = 76
+let final = grade >= 80 ? 'A' : 'B'
+console.log(final)
+
+(function greet(){
+    let salute = 'Hello'
+    let name = 'Daph'
+    console.log(salute + name)
+})()

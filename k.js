@@ -1,43 +1,81 @@
-let userName1 = 'Maureen'
-console.log (userName1)
-let userAge = '28'
-console.log (userAge)
-let isLoggedIn = 'true'
-console.log (isLoggedIn)
-let selectedCourse = null
-console.log (selectedCourse)
-const m = [1,'hello',true]
-let fruits = ['apples','mangoes','passion']
-fruits.unshift('banana')
-fruits.shift('banana')
-console.log (fruits)
-console.log (fruits[1])
-console.log(fruits.length)
+let m = 7
 
-fruits.sort()
-console.log(fruits)
-
-for(let a = 0; a<fruits.length; a++){
-    console.log(fruits[a])
+let fruits = ['mango','banana','orange','strawberries']
+for (let f = 0; f < 10; f++){
+      console.log(f)
 }
 
-let user = {name:'Ruth', age:23, hobby:'cooking', girl:true}
-console.log(user.age)
-
-console.log(Object.keys(user))
-for(let k in user){
-    console.log(k + ':' + user[k] )
+let lives = 3
+while (lives < 0){
+    console.log('life lost')
+    lives++
 }
-let car = {brand:'toyota', color:'silver'}
-let count = 0
+let tryagain = 1
+do {
+    console.log('play')
+    tryagain ++
+}while (tryagain = false)
 
-let i = 5;
-console.log(i++)
-console.log(i)
-let r = 10
-console.log(r--)
-console.log(r)
-
-for(let b = 1; b < 10; b++){
-    console.log(b)
+let instruments =  ['guitar','drums','flutes']
+for(let z of instruments){
+    console.log(z)
 }
+
+for(let z in instruments){
+    console.log(z)
+}
+
+function add(a,b){
+    return a+b
+}
+console.log(add(3, 8))
+
+function pizza(topping1, topping2){
+
+}
+pizza ('mushroom','beef')
+
+setTimeout (function(){
+      console.log('hey every 2 seconds')
+})
+function greetings(m){
+    return function(n){
+      console.log(m + ' ' + n)
+    }
+}
+const t = greetings('Hello')
+const y = greetings('Bonjour')
+y('Moh')
+
+function multiply(a){
+    return function(b){
+        a + b
+    }
+}
+const p = multiply(5)
+console.log(p(5))
+
+function w(...v){
+    return v.reduce((acc, c) =>acc + c, 0)
+}
+//console.log(w(1, 2, 3, 4, 6, 10))
+
+//(function(greeting){
+    let greet = 'Bonjour'
+    let name = "James"
+    console.log(greet +' ' + name)
+//})()
+
+//let word = 'hello my name is J'
+   //console.log(word.toUpperCase())
+   //console.log(word.toLowerCase().trim().replace('J','Moh'))
+   //console.log(word.charAt(10))
+   // console.log(word.indexOf('J'))
+   // console.log(word.includes('my'))
+
+
+
+
+
+
+   
