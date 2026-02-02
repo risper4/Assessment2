@@ -33,7 +33,7 @@ For any enquiry, please contact me through;
 
 #### Live site
 To access the link, visit the link bellow;
-* Live link:
+* Live link: https://risper4.github.io/Assessment2/
 
 ## License and copyright information
 MIT License
