@@ -1,0 +1,40 @@
+nav {
+    background-color:antiquewhite;
+    color: rgb(230, 179, 118);
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+* {
+    background-color: rgb(55, 115, 115);
+}
+.x {
+    text-align: center;
+    color: antiquewhite;
+}
+#y {
+    text-align: center;
+    color: rgb(13, 57, 13);
+    font-family: 'Times New Roman', Times, serif;
+}
+#n {
+    text-align: center;
+    color: rgb(10, 81, 25);
+}
+
+label {
+    display: block;
+}
+button:hover {
+    color: blanchedalmond;
+}
+@media (
+     max-width: 1000px){
+    body{
+        background-color: antiquewhite;
+    }
+}
+
+
